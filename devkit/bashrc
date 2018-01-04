@@ -1,0 +1,36 @@
+export VsphereFolder=liaor1_
+#export DataStore=Data-Gen-Use-03
+export DataStore=Data-Gen-Use-05
+export DevBranch=/root/storage
+export QeBranch=/root/shared-webstorage-qe
+#export BOURNE_DEBUG=1
+export Isilon=9node
+#export FileShareCount=1
+#export FileShareSize=104857600000
+export HDFSNodes='(137.69.144.101)'
+export HadoopVersion=2.0
+export HadoopClasspath=/usr/lib/hadoop/lib/
+export HadoopUsername=root
+export HadoopPassword=cloudera
+
+#export Registry=10.247.200.84
+export Registry=10.247.101.20
+
+#export DataNodes='(10.247.78.236)'
+#export BOURNE_IPADDR=10.247.78.236
+#export BOURNE_DATA_IPADDR=10.247.78.236
+export DataNodes='(10.249.249.131)'
+export BOURNE_IPADDR=10.249.249.131
+export BOURNE_DATA_IPADDR=10.249.249.131
+
+#export BOURNE_IPADDR=10.247.195.130
+#export BOURNE_DATA_IPADDR=10.247.78.236
+#export StandAloneCfg=/root/storage/tools/cli/python/my_ds_standalone_deployment.cfg
+export MUST_HAVE_ENOUGH_RESOURCES=false
+
+export SECURITY="--uid liao --secret=Z7Cs0Ftx8gQdtLdLROVEANUZ4A7OxobvmYmUhtjM"
+#export SECURITY="--uid s3shwetest4@sanity.local --secret=cQrFD+n3MxM/WDoWPw5RE4Aolx3K2WUPn+TGO1PQ"
+#export SECURITY="--uid wuser1@SANITY.LOCAL --secret=0rz7SwbTHljiSBW0ZgwckeB/VuS76lkOipQ+Owse"
+
+#export JAVA_HOME=/usr/lib64/jvm/java-1.7.0
+export PATH=$JAVA_HOME/bin:$PATH

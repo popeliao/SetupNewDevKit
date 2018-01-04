@@ -1,0 +1,14 @@
+alias beep="echo -ne '\007'"
+alias gits="git status -uno"
+alias dateu="date -u"
+vs () {
+    vim `find . -name $1` 
+}
+alert () {
+    #sleep $1
+    for i in {1..5}
+    do  
+        beep
+    done
+}
+export LESS="eirMX"
