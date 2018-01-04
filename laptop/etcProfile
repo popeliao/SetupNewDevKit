@@ -1,0 +1,23 @@
+# to put in /etc/profile
+# System-wide .profile for sh(1)
+
+if [ -x /usr/libexec/path_helper ]; then
+	eval `/usr/libexec/path_helper -s`
+fi
+
+if [ "${BASH-no}" != "no" ]; then
+	[ -r /etc/bashrc ] && . /etc/bashrc
+fi
+
+vs () {
+	vim `find . -name "$1"`
+}
+alias beep="echo -ne '\007'"
+alias gits="git status -uno"
+alert () {
+	for i in {1..5}
+	do
+		beep
+	done
+}
+set -o vi

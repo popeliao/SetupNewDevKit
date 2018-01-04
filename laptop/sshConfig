@@ -1,0 +1,35 @@
+# 233 ~ 238
+
+Host dev
+HostName 10.247.78.233
+User root
+
+Host dev2
+HostName 10.247.78.234
+User root
+
+Host d2z1
+HostName 10.247.78.235
+User root
+
+Host d2
+HostName 10.247.78.236
+User root
+#Host d2
+Host d2z2
+HostName 10.247.78.236
+User root
+
+Host d1z2
+HostName 10.247.78.237
+User root
+
+#Host d2z2
+Host d1z2
+HostName 10.247.78.239
+User root
+
+#the old devkit
+Host dev3
+HostName 10.247.78.238
+User root

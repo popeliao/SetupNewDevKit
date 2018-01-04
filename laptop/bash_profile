@@ -1,0 +1,7 @@
+#export JAVA_HOME=`/usr/libexec/java_home`
+#export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_65.jdk/Contents/Home/
+export PATH=$JAVA_HOME/bin:$PATH
+export IDEA_JDK=`/usr/libexec/java_home`
+alias lgliao=". /etc/profile"
+export PATH=/usr/local/mysql-5.7.17-macos10.12-x86_64/bin:$PATH
+set -o vi

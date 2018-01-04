@@ -1,0 +1,11 @@
+startup_message off
+hardstatus on
+hardstatus alwayslastline
+#shell -$SHELL
+#defshell -bash
+defscrollback 8192
+autodetach on
+#hardstatus string "%w"
+hardstatus string '%{= kG}[%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{W} %y/%m/%d %{W}%c %{g}]'
+escape ^Gg
+shelltitle "$ |bash"
